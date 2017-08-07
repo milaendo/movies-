@@ -2,7 +2,12 @@
 
 This assignment is intended to get you more familiar with reading from a sql
 database.  You will take the included sql and load the database.  Then 
-complete the normal mode objectives
+complete the normal mode objectives.
+
+To import data into mysql:
+1. Clone this repository: `git clone git@github.com:overthemike/movies.git`
+2. `cd` into the movies folder
+3. run this command: `mysql -u root < movies.sql`
 
 ## Normal Mode
 
