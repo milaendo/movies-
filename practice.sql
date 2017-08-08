@@ -72,17 +72,9 @@ WHERE
 SELECT 
     *
 FROM
-    movies.tags
-WHERE
-    tag LIKE '%death%';
-
-SELECT 
-    *
-FROM
     movies.movies
 WHERE
-    title LIKE '%comedy%';
-
+    title LIKE '%death%' and  genres  LIKE '%comedy%';
     
     
 # question 11
